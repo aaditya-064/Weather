@@ -27,7 +27,7 @@ const fetchWeather = async (country) => {
   const result = res.location.country;
   if (result == "Afghanistan" || result == "Pakistan" || result == "Saudi Arabia" || result == "United States" ) {
     selectedCountry.innerHTML = `
-    <img src="https://imgs.search.brave.com/UqnY_ku4jqQOFihP9bmCcu_ACh8Q4twFuHY_RP7anBY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU2/ZDM0N2Q2M2M0NGQ4/MDFmNDc3Yzc3Yy8x/NDgzMzI2NTEyMTkz/LTZMVEVXQVNWVk9O/RkYyVlNQWlEzLzkx/MV9TdGlsbHNfRHVu/a2VkMDEuanBn" alt="Allahu Akhbar" class="d-flex justify-content-center mt-3" width="100%" height="300px"/>
+    <img src="911.png" alt="Allahu Akhbar" class="d-flex justify-content-center mt-3" width="100%" height="300px"/>
     `;
   } else {
     selectedCountry.innerHTML = "A Peace Country"
